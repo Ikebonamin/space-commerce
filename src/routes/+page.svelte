@@ -131,6 +131,7 @@
 				planeta.qtd -= 1;
 
 				if (planeta.qtd === 0) {
+					planeta.qtd = 1;
 					const index = cart.indexOf(planeta);
 					cart.splice(index, 1);
 					//cart = cart.filter((item) => item.id !== planeta.id);
