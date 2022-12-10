@@ -212,7 +212,7 @@
 		</select>
 
 		<!-- início dropdown -->
-		<section class="menu-cont">
+		<section class="menu-con flex space-x-4">
 			<select
 				class=" btn-secondary h-12 rounded-md p-2 "
 				name="menu"
